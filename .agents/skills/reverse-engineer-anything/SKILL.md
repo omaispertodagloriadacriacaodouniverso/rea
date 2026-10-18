@@ -346,6 +346,8 @@ as complete while required questions remain open.
   [references/runtime-observation.md](references/runtime-observation.md)
 - Evidence paging, comparisons, residual unknowns, and verification:
   [references/evidence-workflows.md](references/evidence-workflows.md)
+- Operating under opencode (subagent I/O limits, executor-owned recency, fail-closed):
+  [references/opencode-operation.md](references/opencode-operation.md)
 
 ## Finish the task
 
