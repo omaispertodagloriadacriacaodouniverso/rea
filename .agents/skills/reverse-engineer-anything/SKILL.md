@@ -353,3 +353,11 @@ Explain findings in plain language and tie them to returned evidence. When the
 user asks to build something, use normal coding tools and separate observed
 behavior from design choices. Close an opened native session with
 `close_binary` when the investigation is complete.
+
+## Report (close with a readable record, not just findings)
+
+1. **Target**: file/version + sha256 + size/members.
+2. **Evidence**: IDs (`ev_…`) + the command that produced each.
+3. **Map**: component → role → channel/event (table).
+4. **Limits**: what was NOT covered (REA coverage state, unknowns kept explicit).
+5. **Use**: what the map enabled (decision/code downstream).
